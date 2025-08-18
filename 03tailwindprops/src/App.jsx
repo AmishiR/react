@@ -7,11 +7,15 @@ import Example from './components/ui/FloatingPhone'
 
 function App(props) {
   const [count, setCount] = useState(0)
+  let myObj={
+    username:'hitesh',
+    age:"21"
+  }
 
   return (
     <>
     <div className="fixed inset-0 w-screen h-screen">
-      <LavaLamp channel="chaiaurcode"/>
+      <LavaLamp channel="chaiaurcode" myarr={name:"chaiaurcode"}/>
     </div>
   
   <div className="relative z-10 w-full h-screen flex items-center justify-center">
